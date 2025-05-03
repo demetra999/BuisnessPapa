@@ -1,0 +1,55 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+  line-height: 1.6;
+}
+
+header {
+  background-color: #0a1a2f;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+nav a {
+  color: white;
+  margin: 0 15px;
+  text-decoration: none;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+main {
+  padding: 30px;
+  max-width: 1000px;
+  margin: auto;
+}
+
+footer {
+  background-color: #0a1a2f;
+  color: white;
+  text-align: center;
+  padding: 15px;
+}
+
+img {
+  max-width: 100%;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+/* Animation */
+.fade-in {
+  opacity: 0;
+  animation: fadeIn 1.5s ease-out forwards;
+}
+
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+  }
+}
